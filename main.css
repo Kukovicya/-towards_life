@@ -23,8 +23,6 @@ h4,
 h5,
 h6,
 p,
-ul,
-li,
 a {
   list-style: none;
 
@@ -35,11 +33,11 @@ a {
   display: flex;
   background-image: linear-gradient(
       rgba(200, 207, 222, 0.3),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.3)
     ),
     url(../images/img_1.jpeg);
-  max-width: 1455px;
-  height: 572px;
+  max-width: 1464px;
+  min-height: 572px;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -50,8 +48,19 @@ a {
   color: #fff;
 }
 
+.logo-container {
+  width: 197px;
+  height: 187px;
+}
+.img-logo {
+  position: absolute;
+  top: -4%;
+}
+
 .nav {
   display: flex;
+  list-style: none;
+  margin-left: 80px;
 }
 
 .link {
@@ -84,10 +93,53 @@ a {
 
 .now-subcontainer {
   display: flex;
+  margin-top: 85px;
+  margin-left: 116px;
+}
+.now-container {
+  position: absolute;
+  left: 600px;
+  top: 140px;
+}
+.now-title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-top: 90px;
+}
+.now-list {
+  padding: 0;
+}
+.now-subtitle {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: black;
+}
+.now-list-item {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #505050;
 }
 
 .info-container {
   display: flex;
+  margin-top: 158px;
 }
 
 .info-about {
@@ -142,10 +194,4 @@ a {
   border: 1px solid #00000033;
   border-radius: 8px;
   box-shadow: 10px 10px 10px #24222233;
-}
-
-.now-container {
-  position: absolute;
-  left: 800px;
-  top: 140px;
 }
