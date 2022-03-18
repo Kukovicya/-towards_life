@@ -55,6 +55,7 @@ a {
 .img-logo {
   position: absolute;
   top: -4%;
+  left: 3%;
 }
 
 .nav {
@@ -85,10 +86,11 @@ a {
   font-family: Roboto;
   font-size: 13px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 15px;
   letter-spacing: 0em;
   text-align: center;
+  color: var(--four-color);
 }
 
 .now-subcontainer {
