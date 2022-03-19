@@ -141,7 +141,7 @@ a {
 
 .info-container {
   display: flex;
-  margin-top: 158px;
+  margin-top: 60px;
 }
 
 .info-about {
@@ -286,5 +286,124 @@ a {
   /* left: 0%; */
   height: 3px;
   width: 760px;
-  background: white;
+  background: var(--four-color);
+}
+
+.complited-title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(80, 80, 80, 1);
+  padding-top: 53px;
+  margin-left: 110px;
+}
+.complited-title:after {
+  content: "";
+  display: block;
+  /* position: absolute; */
+  /* top: 282%; */
+  /* left: 0%; */
+  height: 3px;
+  width: 760px;
+  background: var(--four-color);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 210px 210px 210px 210px 210px 210px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.img-done {
+  border-radius: 4px;
+}
+
+.line-container {
+  background-color: rgba(255, 226, 75, 0.25);
+  height: 88px;
+  max-width: 1464px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+.line-bukvu {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--second-color);
+  padding-top: 26px;
+  margin-left: 84px;
+}
+.line-list {
+  display: flex;
+  list-style: none;
+  padding-top: 5px;
+  padding-right: 90px;
+}
+.line-list-item {
+  padding-left: 14px;
+}
+
+.team-title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(80, 80, 80, 1);
+  padding-top: 53px;
+  margin-left: 110px;
+}
+.team-title:after {
+  content: "";
+  display: block;
+  /* position: absolute; */
+  /* top: 282%; */
+  /* left: 0%; */
+  height: 3px;
+  width: 760px;
+  background: var(--four-color);
+}
+.team-list {
+  list-style: none;
+  justify-content: space-around;
+  display: flex;
+}
+.img-team {
+  border-radius: 4px;
+}
+
+.team-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-left: auto;
+}
+.dari {
+  margin-left: 57px;
+}
+.je {
+  margin-left: 39px;
+}
+.juli {
+  margin-left: 65px;
+}
+.vlad {
+  margin-left: 43px;
 }
